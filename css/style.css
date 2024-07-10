@@ -1,0 +1,174 @@
+body {
+  background-color: #f2fafb;
+  font-family: Verdana, Tahoma, Arial, sans-serif;
+  font-size: 16px;
+  color: #202020;
+}
+
+main {
+  background-color: #00aa800c;
+  width: 1024px;
+  border-radius: 20px;
+  margin: 0 auto;
+  margin-top: 20px;
+}
+
+nav {
+  height: 100px;
+  display: flex;
+  justify-content: flex-end;
+}
+
+hr {
+  color: #1d3b31;
+  margin: 0px;
+}
+
+nav > a {
+  font-size: 20px;
+  align-content: center;
+  margin-right: 3%;
+}
+
+a:hover {
+  color: #208368;
+  text-decoration: underline;
+}
+
+a {
+  color: #392e2c;
+  text-decoration: none;
+}
+
+section {
+  padding: 100px;
+  text-align: justify;
+}
+
+.profil {
+  display: flex;
+  justify-content: space-around;
+}
+.profil-pic {
+  height: 250px;
+  width: 250px;
+  object-fit: cover;
+  border-radius: 500px;
+  border: solid #1d3b31;
+}
+
+.name-city {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #1d3b31;
+}
+
+.profil-name {
+  font-size: 38px;
+  font-weight: bold;
+  margin-bottom: 50px;
+  color: #1d3b31;
+  text-align: center;
+}
+
+p {
+  line-height: 30px;
+}
+
+.profil-city {
+  font-size: 30px;
+  font-style: italic;
+}
+
+h3 {
+  color: #208368;
+  font-size: 26px;
+  font-weight: bold;
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+
+#education {
+  text-align: center;
+}
+
+h2 {
+  text-decoration: overline;
+  font-size: 30px;
+  font-weight: bold;
+  margin-bottom: 80px;
+  text-align: center;
+  color: #208368;
+}
+
+span {
+  font-weight: bold;
+}
+
+.logo {
+  display: flex;
+  justify-content: space-around;
+}
+
+.logo > img {
+  height: 100px;
+  margin: 50px;
+}
+
+#projects > h2,
+#projects > p {
+  text-align: center;
+}
+
+.detailed-project > img {
+  width: 500px;
+  margin-right: 60px;
+}
+
+.detailed-project {
+  display: flex;
+  margin-top: 130px;
+  margin-bottom: 100px;
+}
+
+.description > h4 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+li {
+  line-height: 30px;
+  list-style-type: disc;
+}
+
+.link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px;
+  color: #392e2c;
+}
+
+.link > img {
+  height: 30px;
+  margin-right: 20px;
+}
+footer {
+  height: 300px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+footer > p,
+footer > p > a {
+  color: #8bceb6;
+  line-height: 40px;
+}
+
+footer > a {
+  color: #56ba9f;
+  line-height: 40px;
+}
