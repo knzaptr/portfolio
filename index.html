@@ -1,162 +1,148 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
   <head>
+    <meta charset="utf8" />
     <title>Mon portfolio</title>
     <link rel="stylesheet" href="./css/reset.css" />
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <header>
-      <!-- <h1>Mon portfolio</h1> -->
-      <nav>
-        <a href="#aboutme">À propos de moi</a>
-        <a href="#education">Formation</a>
-        <a href="#projects">Projets</a>
-        <a href="#contact">Contact</a>
-      </nav>
-      <hr />
-    </header>
+    <img src="img/japon.jpg" alt="japon" class="head-img" />
+
     <main class="main-block">
-      <section id="aboutme">
-        <div class="profil">
-          <img class="profil-pic" src="./img/me.jpg" alt="me" />
-          <div class="name-city">
-            <p class="profil-name">Kenza Piter</p>
-            <p class="profil-city">Paris</p>
+      <div class="main-block-first-div">
+        <section id="aboutme">
+          <div class="aboutme-profil">
+            <img class="aboutme-profil-pic" src="./img/me.jpg" alt="me" />
+            <div class="aboutme-name-city">
+              <p class="aboutme-profil-name">Kenza Piter</p>
+              <p class="aboutme-profil-city">Paris</p>
+            </div>
           </div>
-        </div>
 
-        <h3>À propos de moi</h3>
+          <h3>À propos de moi</h3>
 
-        <p>
-          Étudiante en programmation passionnée par la création d'applications
-          web, je cherche une alternance pour mettre en pratique mes compétences
-          en HTML, CSS, JavaScript, FastApi et autres technologies web acquise lors de
-          mon master. En parallèle, je poursuivrai ma formation à l'école Le
-          Réacteur, où j'apprendrai à maîtriser React, Node.js, Express, MongoDB
-          entre autres.
-        </p>
-      </section>
+          <p>
+            Étudiante en programmation passionnée par la création d'applications
+            web, je cherche une alternance pour mettre en pratique mes
+            compétences en HTML, CSS, JavaScript, FastApi et autres technologies
+            web acquise lors de mon master. En parallèle, je poursuivrai ma
+            formation à l'école Le Réacteur, où j'apprendrai à maîtriser React,
+            Node.js, Express, MongoDB entre autres.
+          </p>
+        </section>
 
-      <section id="education">
-        <h2>Formation</h2>
-        <p>Les technologies que je maîtrise :</p>
-        <div class="logo">
-          <img src="./img/html.png" alt="html" />
-          <img src="./img/css.png" alt="css" />
-          <img src="./img/javascript.png" alt="javascript" />
-        </div>
-        <p>
-          Pochainement, je suivrai la formation
-          <span>Développement Web & Mobile</span> au <span>Reacteur</span> afin
-          de perfectionner mes connaissances et d'apprendre de nouvelles
-          technologies :
-        </p>
-        <div class="logo">
-          <img src="./img/mongodb.png" alt="mongodb" />
-          <img src="./img/react.png" alt="react" />
-        </div>
-      </section>
-
-      <section id="projects">
-        <h2>Projets</h2>
-        <p>
-          Au cours de mon master, j'ai pu réaliser des projets web de zéro :
-        </p>
-
-        <div class="detailed-project">
-          <img src="./img/dicojap.png" alt="Dictionnaire" />
-          <div class="description">
-            <h3>Dictionnaire de japonais</h3>
-            <h4>Projet Full-Stack</h4>
-            <ul>
-              <li>Connexion</li>
-              <li>Base de données</li>
-              <li>Envoie de suggestions</li>
-            </ul>
+        <section id="education">
+          <h3>Formation</h3>
+          <p>Les technologies que je maîtrise :</p>
+          <div class="logo">
+            <img src="./img/html.png" alt="html" />
+            <img src="./img/css.png" alt="css" />
+            <img src="./img/javascript.png" alt="javascript" />
           </div>
-        </div>
+          <p>
+            Pochainement, je suivrai la formation
+            <span>Développement Web & Mobile</span> au
+            <span>Reacteur</span> afin de perfectionner mes connaissances et
+            d'apprendre de nouvelles technologies :
+          </p>
+          <div class="logo">
+            <img src="./img/mongodb.png" alt="mongodb" />
+            <img src="./img/react.png" alt="react" />
+          </div>
+        </section>
 
-        <div class="detailed-project">
-          <img src="./img/traduction.png" alt="Dictionnaire" />
-          <div class="description">
-            <h3>Traduction et détection de la langue</h3>
-            <h4>Projet Full-Stack</h4>
-            <ul>
-              <li>Intégration de modèles de langues</li>
-              <li>Chargement et téléchargement de fichiers texte</li>
-            </ul>
-          </div>
-        </div>
+        <section id="projects">
+          <h3>Projets</h3>
+          <p>
+            Au cours de mon master, j'ai pu réaliser des projets web de zéro :
+          </p>
 
-        <p>
-          Au cours de ma formation Développement Web & Mobile, je réaliserai
-          plusieurs répliques d'applications Web et d'applications Mobiles :
-        </p>
+          <div class="detailed-project">
+            <img src="./img/dicojap.png" alt="Dictionnaire" />
+            <div class="description">
+              <h3>Dictionnaire de japonais</h3>
+              <h4>Projet Full-Stack</h4>
+              <ul>
+                <li>Connexion</li>
+                <li>Base de données</li>
+                <li>Envoie de suggestions</li>
+              </ul>
+            </div>
+          </div>
 
-        <div class="detailed-project">
-          <img src="./img/vinted.png" alt="vinted" />
-          <div class="description">
-            <h3>Vinted Web</h3>
-            <h4>Projet Full-Stack</h4>
-            <ul>
-              <li>Inscription / connexion</li>
-              <li>Récupération de données</li>
-              <li>Publication d'annonces</li>
-              <li>Barre de recherche</li>
-              <li>Paiement</li>
-              <li>Upload de photos</li>
-            </ul>
+          <div class="detailed-project">
+            <img src="./img/traduction.png" alt="Dictionnaire" />
+            <div class="description">
+              <h3>Traduction et détection de la langue</h3>
+              <h4>Projet Full-Stack</h4>
+              <ul>
+                <li>Intégration de modèles de langues</li>
+                <li>Chargement et téléchargement de fichiers texte</li>
+              </ul>
+            </div>
           </div>
-        </div>
-        <div class="detailed-project">
-          <img src="./img/airbnb.png" alt="airbnb" />
-          <div class="description">
-            <h3>Airbnb Web</h3>
-            <h4>Projet Full-Stack</h4>
-            <ul>
-              <li>Inscription / connexion</li>
-              <li>Modification du profil utilisateur</li>
-              <li>Affichage de cartes</li>
-              <li>Géolocalisation</li>
-              <li>Accès à la galerie d'images</li>
-              <li>Accès à l'appareil photo</li>
-            </ul>
-          </div>
-        </div>
-      </section>
 
-      <section id="contact">
-        <h2>Contactez-moi</h2>
-        <div class="contact-link">
-          <div class="link">
-            <img src="./img/mail.jpg" alt="mail" />
-            <p>kenza.piter@gmial.com</p>
+          <p>
+            Au cours de ma formation Développement Web & Mobile, je réaliserai
+            plusieurs répliques d'applications Web et d'applications Mobiles :
+          </p>
+
+          <div class="detailed-project">
+            <img src="./img/vinted.png" alt="vinted" />
+            <div class="description">
+              <h3>Vinted Web</h3>
+              <h4>Projet Full-Stack</h4>
+              <ul>
+                <li>Inscription / connexion</li>
+                <li>Récupération de données</li>
+                <li>Publication d'annonces</li>
+                <li>Barre de recherche</li>
+                <li>Paiement</li>
+                <li>Upload de photos</li>
+              </ul>
+            </div>
           </div>
-          <div class="link">
-            <img src="./img/linkedin.png" alt="linkedin" />
-            <a href="https://www.linkedin.com/in/kenza-piter/" target="_blank"
-              >https://www.linkedin.com/in/kenza-piter/</a
-            >
+          <div class="detailed-project">
+            <img src="./img/airbnb.png" alt="airbnb" />
+            <div class="description">
+              <h3>Airbnb Web</h3>
+              <h4>Projet Full-Stack</h4>
+              <ul>
+                <li>Inscription / connexion</li>
+                <li>Modification du profil utilisateur</li>
+                <li>Affichage de cartes</li>
+                <li>Géolocalisation</li>
+                <li>Accès à la galerie d'images</li>
+                <li>Accès à l'appareil photo</li>
+              </ul>
+            </div>
           </div>
-          <div class="link">
-            <img src="./img/github.png" alt="github" />
-            <a href="https://github.com/knzaptr" target="_blank"
-              >https://github.com/knzaptr</a
-            >
+        </section>
+
+        <section id="contact">
+          <h3>Contactez-moi</h3>
+          <div class="contact-link">
+            <div class="link">
+              <a href="mailto:kenza.piter@gmial.com" target="_blank"
+                ><img src="./img/mail.jpg" alt="mail"
+              /></a>
+
+              <a href="https://www.linkedin.com/in/kenza-piter/" target="_blank"
+                ><img src="./img/linkedin.png" alt="linkedin"
+              /></a>
+
+              <a href="https://github.com/knzaptr" target="_blank"
+                ><img src="./img/github.png" alt="github"
+              /></a>
+            </div>
           </div>
-        </div>
-      </section>
+        </section>
+      </div>
     </main>
+
     <footer>
       <p>Projet réalisé par Kenza Piter</p>
-      <p>
-        <a
-          href="https://www.flaticon.com/fr/icones-gratuites/github"
-          title="github icônes"
-          >Icônes créées par Freepik - Flaticon</a
-        >
-      </p>
       <p>Préparation à la formation Développement Web & Mobile</p>
       <a href="https://www.lereacteur.io" target="_blank">Le Reacteur</a>
     </footer>
