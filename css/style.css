@@ -1,55 +1,39 @@
+html,
 body {
-  background-color: #f2fafb;
-  font-family: Verdana, Tahoma, Arial, sans-serif;
-  font-size: 16px;
-  color: #202020;
+  height: 100%; /* Le html et le body occupent 100% de la hauteur de la fenêtre */
+  margin: 0; /* Supprime les marges par défaut */
+  padding: 0; /* Supprime le padding par défaut */
 }
 
-main {
-  background-color: #00aa800c;
-  width: 1024px;
-  border-radius: 20px;
-  margin: 0 auto;
-  margin-top: 20px;
+.head-img {
+  width: 100%; /* L'image occupe 100% de la largeur du conteneur */
+  height: auto; /* Maintient le ratio d'aspect de l'image */
+  display: block; /* Supprime l'espace en bas de l'image */
 }
 
-nav {
-  height: 100px;
-  display: flex;
-  justify-content: flex-end;
+.main-block {
+  position: absolute; /* Positionnement absolu par rapport au conteneur parent */
+  top: 0; /* Aligne la `div` en haut du conteneur */
+  left: 0; /* Aligne la `div` à gauche du conteneur */
+  width: 100%; /* La `div` occupe toute la largeur du conteneur */
+  height: auto 0; /* La `div` occupe toute la hauteur du conteneur */
+  background: rgba(0, 0, 0, 0.5); /* Arrière-plan semi-transparent */
+  display: flex; /* Utilisation de Flexbox pour le centrage du contenu, si nécessaire */
+  justify-content: center; /* Centre horizontalement le contenu */
+  align-items: center; /* Centre verticalement le contenu */
 }
 
-hr {
-  color: #1d3b31;
-  margin: 0px;
+.main-block-first-div {
+  margin-top: 25%;
+  border: rgb(128, 0, 0) solid 2px;
+  width: 80%; /* Le bloc occupe 80% de la largeur de la page */
 }
 
-nav > a {
-  font-size: 20px;
-  align-content: center;
-  margin-right: 3%;
-}
-
-a:hover {
-  color: #208368;
-  text-decoration: underline;
-}
-
-a {
-  color: #392e2c;
-  text-decoration: none;
-}
-
-section {
-  padding: 100px;
-  text-align: justify;
-}
-
-.profil {
+.aboutme-profil {
   display: flex;
   justify-content: space-around;
 }
-.profil-pic {
+.aboutme-profil-pic {
   height: 250px;
   width: 250px;
   object-fit: cover;
@@ -57,7 +41,7 @@ section {
   border: solid #1d3b31;
 }
 
-.name-city {
+.aboutme-name-city {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -65,7 +49,7 @@ section {
   color: #1d3b31;
 }
 
-.profil-name {
+.aboutme-profil-name {
   font-size: 38px;
   font-weight: bold;
   margin-bottom: 50px;
@@ -77,39 +61,32 @@ p {
   line-height: 30px;
 }
 
-.profil-city {
+.aboutme-profil-city {
   font-size: 30px;
   font-style: italic;
 }
 
 h3 {
-  color: #208368;
   font-size: 26px;
   font-weight: bold;
   margin-bottom: 40px;
   margin-top: 40px;
 }
 
+section {
+  border-radius: 5px;
+  margin: 30px;
+  padding: 70px;
+  text-align: justify;
+  background-color: #fdfdfc;
+}
+
 #education {
   text-align: center;
 }
 
-h2 {
-  text-decoration: overline;
-  font-size: 30px;
-  font-weight: bold;
-  margin-bottom: 80px;
-  text-align: center;
-  color: #208368;
-}
-
-span {
-  font-weight: bold;
-}
-
 .logo {
   display: flex;
-  justify-content: space-around;
 }
 
 .logo > img {
@@ -117,13 +94,13 @@ span {
   margin: 50px;
 }
 
-#projects > h2,
-#projects > p {
-  text-align: center;
+span {
+  font-weight: bold;
 }
 
 .detailed-project > img {
-  width: 500px;
+  width: 50%;
+  height: 50%;
   margin-right: 60px;
 }
 
@@ -152,10 +129,163 @@ li {
   color: #392e2c;
 }
 
-.link > img {
+.link > a > img {
   height: 30px;
   margin-right: 20px;
 }
+
+footer {
+  height: 300px;
+  text-align: center;
+  margin-top: 30px;
+}
+
+footer > p,
+footer > p > a {
+  color: #8bceb6;
+  line-height: 40px;
+}
+
+footer > a {
+  color: #56ba9f;
+  line-height: 40px;
+}
+html,
+body {
+  height: 100%; /* Le html et le body occupent 100% de la hauteur de la fenêtre */
+  margin: 0; /* Supprime les marges par défaut */
+  padding: 0; /* Supprime le padding par défaut */
+}
+
+.head-img {
+  width: 100%; /* L'image occupe 100% de la largeur du conteneur */
+  height: auto; /* Maintient le ratio d'aspect de l'image */
+  display: block; /* Supprime l'espace en bas de l'image */
+}
+
+.main-block {
+  position: absolute; /* Positionnement absolu par rapport au conteneur parent */
+  top: 0; /* Aligne la `div` en haut du conteneur */
+  left: 0; /* Aligne la `div` à gauche du conteneur */
+  width: 100%; /* La `div` occupe toute la largeur du conteneur */
+  height: auto 0; /* La `div` occupe toute la hauteur du conteneur */
+  background: rgba(0, 0, 0, 0.5); /* Arrière-plan semi-transparent */
+  display: flex; /* Utilisation de Flexbox pour le centrage du contenu, si nécessaire */
+  justify-content: center; /* Centre horizontalement le contenu */
+  align-items: center; /* Centre verticalement le contenu */
+}
+
+.main-block-first-div {
+  margin-top: 25%;
+  border: rgb(128, 0, 0) solid 2px;
+  width: 80%; /* Le bloc occupe 80% de la largeur de la page */
+}
+
+.aboutme-profil {
+  display: flex;
+  justify-content: space-around;
+}
+.aboutme-profil-pic {
+  height: 250px;
+  width: 250px;
+  object-fit: cover;
+  border-radius: 500px;
+  border: solid #1d3b31;
+}
+
+.aboutme-name-city {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: #1d3b31;
+}
+
+.aboutme-profil-name {
+  font-size: 38px;
+  font-weight: bold;
+  margin-bottom: 50px;
+  color: #1d3b31;
+  text-align: center;
+}
+
+p {
+  line-height: 30px;
+}
+
+.aboutme-profil-city {
+  font-size: 30px;
+  font-style: italic;
+}
+
+h3 {
+  font-size: 26px;
+  font-weight: bold;
+  margin-bottom: 40px;
+  margin-top: 40px;
+}
+
+section {
+  border-radius: 5px;
+  margin: 30px;
+  padding: 70px;
+  text-align: justify;
+  background-color: #fdfdfc;
+}
+
+#education {
+  text-align: center;
+}
+
+.logo {
+  display: flex;
+}
+
+.logo > img {
+  height: 100px;
+  margin: 50px;
+}
+
+span {
+  font-weight: bold;
+}
+
+.detailed-project > img {
+  width: 50%;
+  height: 50%;
+  margin-right: 60px;
+}
+
+.detailed-project {
+  display: flex;
+  margin-top: 130px;
+  margin-bottom: 100px;
+}
+
+.description > h4 {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+li {
+  line-height: 30px;
+  list-style-type: disc;
+}
+
+.link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px;
+  color: #392e2c;
+}
+
+.link > a > img {
+  height: 30px;
+  margin-right: 20px;
+}
+
 footer {
   height: 300px;
   text-align: center;
