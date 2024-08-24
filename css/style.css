@@ -135,6 +135,21 @@ li {
   margin-right: 20px;
 }
 
+#education > p,
+#projects > p {
+  text-align: center;
+}
+
+#education > div,
+#projects > div {
+  justify-content: center; /* Centre horizontalement le contenu */
+  align-items: center; /* Centre verticalement le contenu */
+}
+
+.description {
+  width: 20%;
+}
+
 footer {
   height: 300px;
   text-align: center;
