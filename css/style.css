@@ -91,7 +91,8 @@ section {
 }
 
 .logo > img {
-  height: 100px;
+  /* height: 100px; */
+  width: 15%;
   margin: 50px;
 }
 
@@ -130,7 +131,7 @@ li {
   color: #392e2c;
 }
 
-.link > a > img {
+.link img {
   height: 30px;
   margin-right: 20px;
 }
@@ -152,6 +153,7 @@ li {
 }
 
 footer {
+  position: relative;
   height: 300px;
   text-align: center;
   margin-top: 30px;
@@ -159,11 +161,24 @@ footer {
 
 footer > p,
 footer > p > a {
-  color: #8bceb6;
+  color: #717d79;
   line-height: 40px;
 }
 
 footer > a {
   color: #56ba9f;
   line-height: 40px;
+}
+
+.contact-link {
+  display: flex;
+  justify-content: center; /* Centre les éléments horizontalement */
+  align-items: center; /* Centre les éléments verticalement si nécessaire */
+  text-align: center; /* Assure que le texte dans les éléments enfants est centré */
+}
+
+.link {
+  display: flex;
+  gap: 20px; /* Espacement entre les images */
+  justify-content: center; /* Centre les images à l'intérieur du conteneur */
 }
