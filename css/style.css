@@ -7,8 +7,8 @@ body {
 
 .head-img {
   width: 100%; /* L'image occupe 100% de la largeur du conteneur */
-  height: auto; /* Maintient le ratio d'aspect de l'image */
-  display: block; /* Supprime l'espace en bas de l'image */
+  height: 100%; /* Maintient le ratio d'aspect de l'image */
+  display: cover; /* Supprime l'espace en bas de l'image */
 }
 
 .main-block {
@@ -27,6 +27,23 @@ body {
   margin-top: 25%;
   border: rgb(128, 0, 0) solid 2px;
   width: 80%; /* Le bloc occupe 80% de la largeur de la page */
+}
+
+nav {
+  background-color: #fdfdfc;
+  margin: 30px;
+  padding: 5px;
+  display: flex;
+  justify-content: space-around;
+  font-size: 20px;
+  border-radius: 5px;
+}
+nav > a {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  text-decoration: underline;
 }
 
 .aboutme-profil {
@@ -181,4 +198,14 @@ footer > a {
   display: flex;
   gap: 20px; /* Espacement entre les images */
   justify-content: center; /* Centre les images à l'intérieur du conteneur */
+}
+
+.info {
+  text-align: center;
+}
+
+.info > a,
+.info > p {
+  color: rgb(128, 0, 0);
+  margin: 10px;
 }
